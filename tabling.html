@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev_Ashu</title>
+    <style>
+        h1 {
+            color: cornsilk;
+        }
+
+        body {
+            background-image: linear-gradient(rgb(5, 5, 92),
+                    rgb(9, 9, 146),
+                    rgb(231, 151, 2));
+
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: large;
+        }
+
+        table {
+            border: 8px solid white;
+        }
+
+        tr {
+            color: cornsilk;
+        }
+
+        td {
+            color: cornsilk;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div>
+            <h1>Ok people....let's start</h1>
+            <table border="1" cellpadding="5" cellspacing="6">
+                <tr>
+                    <td>Members</td>
+                    <td>1</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Bikash</td>
+                    <td>Ashu</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Devi</td>
+                    <td>Madhu</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Manoj</td>
+                    <td>Lohit</td>
+                </tr>
+                <tr>
+
+                    <td>4</td>
+                    <td>Sai</td>
+                    <td>Nikhil</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Krishna</td>
+                    <td>Abhishek</td>
+                </tr>
+            </table>
+            <br>
+            <table border="1" cellpadding="5" cellspacing="6">
+                <tr>
+                    <td rowspan="2">1 </td>
+                    <td>2 </td>
+                    <td>3 </td>
+                </tr>
+                <tr>
+                    <td colspan="2">4 </td>
+                </tr>
+                <tr>
+                    <td colspan="2">5 </td>
+                    <td>6 </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">7 </td>
+                    <td colspan="2">8 </td>
+                </tr>
+                <tr>
+                    <td colspan="2">9 </td>
+                </tr>
+
+            </table>
+            <br>
+            <table border="1" width="50%" cellpadding="5" cellspacing="6">
+                <thead>
+                    <tr>
+                        <td colspan="4">This is the head of the table</td>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">This is foot of table</td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <td>Cell 1</td>
+                        <td>Cell 2</td>
+                        <td>Cell 3</td>
+                        <td>Cell 4</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <form method="post" action="">
+                <table>
+                    <tr>
+                        <th>Department</th>
+                        <td>
+                            <select name="department">
+                                <option>CSE</option>
+                                <option>EEE</option>
+                                <option>EE</option>
+                                <option>CST</option>
+                                <option>ECE</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Name</th>
+                        <td>
+                            <input type="text" name="s_name" placeholder="Enter your name" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                        <td>
+                            <input type="email" name="s_email" placeholder="Enter your email" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Phone number</th>
+                        <td>
+                            <input type="number" name="s_phone" placeholder="Enter your phone number" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Subject</th>
+                        <td>
+                            <input type="checkbox" name="s_sub[]" /> PHP
+                            <input type="checkbox" name="s_sub[]" /> C
+                            <input type="checkbox" name="s_sub[]" /> Java
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Gender</th>
+                        <td>
+                            <input type="radio" name="s_gender"/>M
+                            <input type="radio" name="s_gender"/>F
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Password</th>
+                        <td>
+                            <input type="password" name="s_pass" placeholder="Enter your password" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Student Picture</th>
+                        <td>
+                            <input type="file" name="s_pic" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Address</th>
+                        <td>
+                            <textarea name="s_address"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Registration"/></td>
+                        <td><input type="reset" value="Reset"/></td>
+                    </tr>
+                </table>
+            </form>
+
+            <a href="https://github.com/Ashutosh102/Web_Warriors/tree/master" target=_blank>
+                <h2 style="color:gold;">Check it on GitHub</h2>
+            </a>
+            <iframe src="https://dev-hub-one.vercel.app/" title="Dev_Hub" height="300px" width="70%"></iframe>
+        </div>
+    </center>
+</body>
+
+</html>
